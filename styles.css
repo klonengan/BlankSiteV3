@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document 
+*  -------------------------------
+*  Created by: wimpykatana
+*  website: wimpykatana.com
+*
+*/
+
+/* reset css
+*
+*******************************/
+@import url("-/css/reset.css");
+
+
+/* core css
+*
+*******************************/
+@import url("-/css/core.css");
+
+/* Global css
+*
+*******************************/
+::selection {
+	background: #eac06e; /* Safari */
+	color: white;
+	}
+::-moz-selection {
+	background: #eac06e; /* Firefox */
+	color: white;
+}

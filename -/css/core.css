@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document 
+*  -------------------------------
+*  Created by: wimpykatana
+*  website: wimpykatana.com
+* 
+*
+*/
+
+/*-  SELF-CLEARING FLOATS
+----------------------------------------------------------------------*/
+
+#page-wrap:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	clear:both;
+}
+
+/*-  BASE STYLES
+----------------------------------------------------------------------*/
+body{
+	background: white;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-family: 'Droid Sans', sans-serif,Arial, Helvetica;
+	font-size: 0.75em;
+	font-weight: 400;
+	color: #666;
+	line-height: 20px;
+}
+h1  { font-size:2.25em;  /* 16x2.25=36 */ }
+h2  { font-size:1.5em;   /* 16x1.5=24 */ margin: 0 0 5px 0; }
+h3  { font-size:1.125em; /* 16x1.125=18 */ }
+h4  { font-size:0.975em; /* 16x0.875=14 */ text-align:justify; }
+p   { font-size:0.975em;  /* 16x0.75=12 */ }
+a   { color:#666; text-decoration:none; }
+div { display:block; }
+.clear {clear:both;}
+/*- LAYOUT
+----------------------------------------------------------------------*/
+#page-wrap{
+
+	/* tentukan lebar content web */
+	max-width: 960px;
+	width: 960px;
+	margin: 0 auto;
+
+	position: relative;
+	color: #666;
+}
+#main-content{
+
+	
+}
+	
+	/*- HEADER
+	----------------------------------------------------------------------*/
+	
+	
+	/*- NAVIGASI
+	----------------------------------------------------------------------*/
+		
+		
+	/*- CONTENT
+	------------------------------------------------------------------*/
+		
+			
+	/*- FOOTER
+	------------------------------------------------------------------*/
+	
+/* ---------------------------------------------------------------------------- */
+/* MEDIA QUERIES -------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+ 
+/**
+ * Print styles.
+ *
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    
+    
+ 
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+and (max-width : 480px) {
+    /* Styles */
+ 
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 481px)
+and (max-width : 768px) {
+    /* Styles */
+ 
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 1024px) {
+    /* Styles */
+ 
+}
+
+/* iPhone (portrait) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (max-device-width : 568px)  
+and (orientation : portrait) {
+	/* Styles */
+    
+}
+
+/* iPhone (landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (max-device-width : 568px)  
+and (orientation : landscape) { 
+	/* Styles*/
+
+}
+ 
+/* Larger screens ----------- */
+@media only screen 
+and (max-width : 1024px) {
+    /* Styles */
+ 
+}
+
+/* Smal screens ------------- */
+@media only screen 
+and (max-width : 319px){
+	/* Styles */
+
+}
+
+/* Other screens ------------- */
+@media only screen 
+and (max-width : 1199px) {
+	/* Styles */
+	
+}
