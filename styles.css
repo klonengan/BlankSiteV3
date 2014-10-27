@@ -28,3 +28,10 @@
 	background: #eac06e; /* Firefox */
 	color: white;
 }
+
+/* remove outline chorme */
+textarea:focus,
+select:focus,
+input:focus {
+	outline: none;
+}
