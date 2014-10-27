@@ -31,7 +31,8 @@
 
 /* remove outline chorme */
 textarea:focus,
+button:focus,
 select:focus,
 input:focus {
-	outline: none;
+	outline: 0 !important;
 }
